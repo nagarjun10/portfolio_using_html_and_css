@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap'); */
+:root{
+    --primary-color : #10B981;
+} 
+    
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .container{
@@ -11,3 +16,21 @@ body {
     max-width: 600px;
     margin: auto;
 }
+
+.links
+{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.links-primary{
+    background-color: #10B981;
+    color: aliceblue;
+    border-radius: 00.5rem;
+}
+.links-secondary{
+    color: #10B981;
+    border-radius: 0.5rem;
+    border: 1px solid ;
+}
+
