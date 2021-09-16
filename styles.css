@@ -8,6 +8,7 @@ body {
     margin: 0px;
 
 }
+
 hr{
     margin: 2rem 0rem;
 }
@@ -65,7 +66,7 @@ hr{
     text-size-adjust: 1.2rem;
 }
 .links-active{
-    font-weight: bolder;
+       font-weight: bolder;
 }
 
 .hero{
@@ -75,6 +76,7 @@ hr{
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 20px;
     
 }
 .hero-heading{
@@ -82,6 +84,7 @@ hr{
     padding-top: 1rem;
     margin: auto;
     text-align: center;
+    padding: 3rem;
 }
 
 .section-heading {
@@ -95,10 +98,15 @@ hr{
 }
 .footer{
     background-color:#ef9273;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+ 
+}
+ .footer-heading{
+    font-weight: bold;
+    font-size: large;
 }
 .linkedin{
     padding: 0rem 0rem;
