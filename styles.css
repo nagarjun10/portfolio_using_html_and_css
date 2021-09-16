@@ -5,6 +5,7 @@
     
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 
 }
 hr{
@@ -70,12 +71,40 @@ hr{
 .hero{
     padding: 2rem;
 }
-.hero-image{
+ .hero-image{
     max-width: 350px;
-    margin:auto ;
+    display: block;
+    margin: auto;
+    
 }
 .hero-heading{
     color: #ef9273;
     padding-top: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.section-heading {
+    text-align: center;
+}
+.off-white-section{
+    background-color: #fef9f8;
+}
+.section{
+    padding: 1rem;
+}
+.footer{
+    background-color:#ef9273;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.linkedin{
+    padding: 0rem 0rem;
+}
+.footer .links{
+    color: white;
+    padding-left: 0px;
 }
 
